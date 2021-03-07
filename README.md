@@ -99,7 +99,7 @@ Be sure to include any preliminary setup information, such as installing depende
 
 * Celebrate, you just created a blockchain and sent a transaction!
 
-![transaction-success](Images/transaction-success.png)
+![transaction-success](Images/Capture 1.png)
 
 ### Create a repository, and instructions for launching the chain
 
