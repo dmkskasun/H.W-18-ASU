@@ -119,10 +119,10 @@ Be sure to include any preliminary setup information, such as installing depende
 
 ### Explanation
 *
-![custom-node](Images/custom-node-one.PNG)
+![custom-node](Images/custom-node-one.PNG).
 *
-![custom-node](Images/custom-node-two.PNG)
+![custom-node](Images/custom-node-two.PNG).
 *
-![custom-node](Images/custom-node-three.PNG)
+![custom-node](Images/custom-node-three.PNG).
 
 
