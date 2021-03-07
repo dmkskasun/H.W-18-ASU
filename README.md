@@ -118,7 +118,9 @@ Be sure to include any preliminary setup information, such as installing depende
 ### Remember, *never* share your mainnet private keys! This is a testnet, so coins have no value here!
 
 ### Explanation
-*
+* Create node1 and node2
+* ./geth account new --datadir node1
+./geth account new --datadir node2
 ![custom-node](Images/custom-node-one.PNG).
 *
 ![custom-node](Images/custom-node-two.PNG).
