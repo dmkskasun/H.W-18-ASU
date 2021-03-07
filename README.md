@@ -123,7 +123,7 @@ Be sure to include any preliminary setup information, such as installing depende
 ./geth account new --datadir node1
 ./geth account new --datadir node2
 ```
-
+![custom-node](Images/step-01.PNG).
 #### Running Puppeth
 1. Open a terminal window (GitBash in Windows) navigate to my `Blockchain-Tools` folder and type the following command:
 ​
