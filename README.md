@@ -119,7 +119,7 @@ Be sure to include any preliminary setup information, such as installing depende
 
 ### Explanation
 ![custom-node](Images/Capture 1.png)
-![custom-node](Images/custom-node.png)
+![custom-node](Images/custom-node-one.png)
 ![custom-node](Images/custom-node.png)
 
 
