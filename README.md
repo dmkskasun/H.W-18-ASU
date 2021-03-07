@@ -118,8 +118,48 @@ Be sure to include any preliminary setup information, such as installing depende
 ### Remember, *never* share your mainnet private keys! This is a testnet, so coins have no value here!
 
 ### Explanation
-![custom-node](Images/Capture 1.png)
-![custom-node](Images/custom-node.png)
-![custom-node](Images/custom-node.png)
+#### Create node1 and node2
+```bash
+./geth account new --datadir node1
+./geth account new --datadir node2
+```
+
+#### Running Puppeth
+1. Open a terminal window (GitBash in Windows) navigate to my `Blockchain-Tools` folder and type the following command:
+​
+  ```bash
+  ./puppeth
+  ```
+​
+
+2. `>zbankwallet` <- name of network​
+
+3. Type `2` to pick the `Configure new genesis` option, then `1` to `Create new genesis from scratch`:
+​
+4. Type `1` to choose `Proof of Work` and continue.
+​
+5. Addresses: Uses those associated with cloud mnemonic
+Use MyCrypto like from the previous class and explain to the students that in this step is where we are going to pre-fund any accounts.
+​
+6. Once I paste an address and hit enter, hit enter again on the blank 0x address to continue the prompt.
+​
+7. Continue with the default option for the prompt that asks, Should the precompile-addresses (0x1 .. 0xff) be pre-funded with 1 wei? by hitting enter again until I reach the Chain ID prompt. You can select no here to keep the genesis block cleaner.
+​
+8. Come up with a number to use as a "chain ID" or make one up myself, like 333, for example.
+​
+9. In the `puppeth` prompt, navigate to the `Manage existing genesis` by typing `2` and hit enter.
+​
+10. Next, type `2` again to choose the `Export genesis configurations` option, then continue with the default (current) directory:
+​
+11. Show files in Blockchain-Tools folder. Show json file.
+​
+12. Exit the puppeth prompt by using the Ctrl+C keys combination.
+​
+
+![custom-node](Images/custom-node-one.PNG).
+*
+![custom-node](Images/custom-node-two.PNG).
+*
+![custom-node](Images/custom-node-three.PNG).
 
 
